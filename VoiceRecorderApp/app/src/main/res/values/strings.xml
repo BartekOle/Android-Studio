@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">VoiceRecorderApp</string>
+    <string name="_00_00">00:00</string>
+    <string name="Imie">Imie</string>
+    <string name="Nazwisko">Nazwisko</string>
+    <string name="Tytul">Tytul</string>
+    <string name="Opis">Opis</string>
+    <string name="norecording">No Recordings found.</string>
+    <string name="lista">Lista</string>
+</resources>

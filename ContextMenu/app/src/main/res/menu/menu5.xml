@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.cotm/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:androd="http://schemas.android.com/apk/res-auto"
+    tools:context=".Aktywnosc1">
+<group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/option7"
+        android:title="@string/text23"
+
+        >
+    </item>
+
+    <item
+        android:id="@+id/option8"
+        android:title="@string/text22"
+        android:icon="@drawable/iconcolor1"
+
+        >
+    </item>
+
+    <item
+        android:id="@+id/option9"
+        android:title="@string/text24"
+
+        >
+    </item>
+
+</group>
+</menu>

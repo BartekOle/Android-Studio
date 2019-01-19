@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.cotm/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".Aktywnosc1"
+    >
+
+    <item
+        android:id="@+id/option1"
+        android:title="@string/text10"
+       >
+    </item>
+
+    <item
+        android:id="@+id/option2"
+        android:title="@string/text11"
+        android:icon="@drawable/iconcolor1"
+        >
+    </item>
+
+    <item
+        android:id="@+id/option3"
+        android:title="@string/text12"
+        >
+    </item>
+
+
+
+</menu>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Aktywnosc2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:textColor="#000000"
+        android:typeface="serif"
+        android:id="@+id/ele5"
+        android:text="@string/text30"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text31"
+        android:textColor="#000000"
+        android:textSize="10sp"
+        android:background="#A1887F"
+        android:id="@+id/ele6"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text32"
+        android:id="@+id/cont5"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text33"
+        android:id="@+id/cont6"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:textColor="#000000"
+        android:fontFamily="cursive"
+        android:id="@+id/ele8"
+        android:text="@string/text38"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text37"
+        android:textColor="#000000"
+        android:textSize="10sp"
+        android:background="#455A64"
+        android:id="@+id/ele7"
+        />
+
+</LinearLayout>

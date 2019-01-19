@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Zadanie5a</string>
+    <string name="tekst1">Dostepnosc dla pomiaru natezenia swiatla</string>
+    <string name="tekst2">Dostepnosc dla pomiaru przyspieszenia</string>
+    <string name="tekst3">Dostepnosc dla GPS</string>
+    <string name="tekst4">ASensor natezenia swiatla</string>
+    <string name="tekst5">ASensor przyspieszenia</string>
+    <string name="tekst6">GPS</string>
+    <string name="tekst7">Status ASensor</string>
+    <string name="tekst8">Dane ASensor</string>
+    <string name="tekst10">Status GPS</string>
+    <string name="tekst9">Dane GPS</string>
+    <string name="light_status">Status dla pomiaru natezenia swiatla</string>
+    <string name="txt_avail">Dostepny</string>
+    <string name="txt_unavail">Niedostepny</string>
+    <string name="accel_status">Status dla pomiaru przyspieszenia</string>
+    <string name="gps_status">Status dla GPS</string>
+    <string name="tekst11">Dostepnosc dla pomiaru temperatury</string>
+    <string name="tekst12">ASensor temperatury</string>
+    <string name="temp_status">Status dla pomiaru temperaturya</string>
+    <string name="tekst13">Dostepnosc dla pomiaru zyroskopu</string>
+    <string name="tekst14">ASensor zyroskopu</string>
+    <string name="gyro_status">Status dla pomiaru zyroskopu</string>
+    <string name="tekst15">Dostepnosc dla pomiaru bliskosci</string>
+    <string name="tekst16">ASensor bliskosci</string>
+    <string name="prox_status">Status dla pomiaru bliskosci</string>
+    <string name="tekst17">Dostepnosc dla pomiaru pola magnetycznego</string>
+    <string name="tekst18">ASensor pola magnetycznego</string>
+    <string name="magn_status">Status dla pomiaru pola magnetycznego</string>
+    <string name="tekst19">Dostepnosc dla pomiaru cisnienia</string>
+    <string name="tekst20">ASensor cisneinia</string>
+    <string name="press_status">Status dla pomiaru cisnienia</string>
+</resources>
