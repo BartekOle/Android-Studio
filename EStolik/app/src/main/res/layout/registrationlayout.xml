@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.e_stolik.RegistrationActivity">
+
+
+    <EditText
+        android:id="@+id/et_imie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Imię*"/>
+
+    <EditText
+        android:id="@+id/et_nazwisko"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_imie"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Nazwisko*"/>
+
+    <EditText
+        android:id="@+id/et_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_nazwisko"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Login*"/>
+
+
+    <EditText
+        android:id="@+id/et_haslo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:layout_below="@+id/et_login"
+        android:inputType="textPassword"
+        android:hint="Hasło*"/>
+
+    <EditText
+    android:id="@+id/et_haslo2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="25dp"
+    android:ems="10"
+    android:layout_below="@+id/et_haslo"
+    android:inputType="textPassword"
+    android:hint="Pwtórz Hasło*"/>
+
+    <EditText
+    android:id="@+id/et_email"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="25dp"
+    android:ems="10"
+    android:layout_below="@+id/et_haslo2"
+    android:inputType="textEmailAddress"
+    android:hint="Email*"/>
+
+    <EditText
+        android:id="@+id/et_nrTelefonu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:layout_below="@+id/et_email"
+        android:inputType="phone"
+        android:hint="Numer Telefonu*"/>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:text="Zarejestruj się"
+        android:layout_below="@+id/et_nrTelefonu"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"/>
+
+
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:text="Powrót do logowania"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"/>
+
+
+</RelativeLayout>

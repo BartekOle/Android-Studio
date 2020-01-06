@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="Zarezerwuj dla siebie idealny stolik."
+                android:textSize="20dp"/>
+
+            <ImageView
+                android:id="@+id/stolik1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp"
+                app:srcCompat="@drawable/stolik1" />
+
+            <Button
+                android:id="@+id/btn_reze1a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
+                android:ems="10"
+                android:text="Dla siebie"
+                android:layout_below="@+id/stolik1"
+                android:background="@color/colorAccent"
+                android:textColor="@android:color/white"/>
+
+            <Button
+                android:id="@+id/btn_reze1b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="20dp"
+                android:ems="10"
+                android:text="Dla kogoś"
+                android:layout_below="@+id/stolik1"
+                android:layout_toRightOf="@+id/btn_reze1a"
+                android:background="@color/colorAccent"
+                android:textColor="@android:color/white"/>
+
+            <ImageView
+            android:id="@+id/stolik2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_reze1b"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            app:srcCompat="@drawable/stolik2" />
+
+            <Button
+                android:id="@+id/btn_reze2a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
+                android:ems="10"
+                android:text="Dla siebie"
+                android:layout_below="@+id/stolik2"
+                android:background="@color/colorAccent"
+                android:textColor="@android:color/white"/>
+
+            <Button
+                android:id="@+id/btn_reze2b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="20dp"
+                android:ems="10"
+                android:text="Dla kogoś"
+                android:layout_below="@+id/stolik2"
+                android:layout_toRightOf="@+id/btn_reze2a"
+                android:background="@color/colorAccent"
+                android:textColor="@android:color/white"/>
+
+            <ImageView
+                android:id="@+id/stolik3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_reze2b"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp"
+                app:srcCompat="@drawable/stolik3" />
+
+            <Button
+                android:id="@+id/btn_reze3a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
+                android:ems="10"
+                android:text="Dla siebie"
+                android:layout_below="@+id/stolik3"
+                android:background="@color/colorAccent"
+                android:textColor="@android:color/white"/>
+
+            <Button
+                android:id="@+id/btn_reze3b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="20dp"
+                android:ems="10"
+                android:text="Dla kogoś"
+                android:layout_below="@+id/stolik3"
+                android:layout_toRightOf="@+id/btn_reze3a"
+                android:background="@color/colorAccent"
+                android:textColor="@android:color/white"/>
+
+            <ImageView
+                android:id="@+id/stolik4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_reze3b"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp"
+                app:srcCompat="@drawable/stolik4" />
+
+            <Button
+                android:id="@+id/btn_reze4a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
+                android:ems="10"
+                android:text="Dla siebie"
+                android:layout_below="@+id/stolik4"
+                android:background="@color/colorAccent"
+                android:textColor="@android:color/white"/>
+
+            <Button
+                android:id="@+id/btn_reze4b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="20dp"
+                android:ems="10"
+                android:text="Dla kogoś"
+                android:layout_below="@+id/stolik4"
+                android:layout_toRightOf="@+id/btn_reze4a"
+                android:background="@color/colorAccent"
+                android:textColor="@android:color/white"/>
+
+            <ImageView
+                android:id="@+id/stolik5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_reze4b"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp"
+                app:srcCompat="@drawable/stolik5" />
+
+            <Button
+                android:id="@+id/btn_reze5a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
+                android:ems="10"
+                android:text="Dla siebie"
+                android:layout_below="@+id/stolik5"
+                android:background="@color/colorAccent"
+                android:textColor="@android:color/white"/>
+
+            <Button
+                android:id="@+id/btn_reze5b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="20dp"
+                android:ems="10"
+                android:text="Dla kogoś"
+                android:layout_below="@+id/stolik5"
+                android:layout_toRightOf="@+id/btn_reze5a"
+                android:background="@color/colorAccent"
+                android:textColor="@android:color/white"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Podaj date rezerwacji"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/et_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:inputType="date"
+            android:hint="Data*"/>
+
+        <EditText
+            android:id="@+id/et_godzRoz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:layout_below="@+id/et_data"
+            android:inputType="datetime"
+            android:hint="Godzina rozpoczecia*"/>
+
+        <EditText
+            android:id="@+id/et_godzZak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:layout_below="@+id/et_godzRoz"
+            android:inputType="datetime"
+            android:hint="Godzina zakonczenia*"/>
+
+        <Button
+            android:id="@+id/btn_cofnij"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:text="Cofnij"
+            android:layout_below="@+id/et_godzZak"
+            android:background="@color/colorAccent"
+            android:textColor="@android:color/white"/>
+
+        <Button
+            android:id="@+id/btn_potwierdz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="20dp"
+            android:ems="10"
+            android:text="Potwierdz"
+            android:layout_below="@+id/et_godzZak"
+            android:layout_toRightOf="@+id/btn_cofnij"
+            android:background="@color/colorAccent"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/btn_potwierdz"
+            android:layout_marginTop="25dp"
+            android:text="Zajęte daty dla wybranego stolika"
+            android:textSize="20dp"/>
+
+        <TableLayout
+            android:id="@+id/table_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="25dp"
+            >
+        </TableLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

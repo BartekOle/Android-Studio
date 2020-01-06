@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.e_stolik.LoginActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="Witamy w aplikacji do rezerwacji stolików.
+Pełna funkcjonalność jest tylko dla zarejestrowanych użytowników."
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/et_login"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="Login*"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/et_haslo"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/et_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="Hasło*"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/et_haslo"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:text="Zaloguj się"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:textSize="20dp"
+        android:text="  Albo" />
+
+
+    <View
+        android:layout_width="105dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="9dp"
+        android:layout_toRightOf="@id/textView2"
+        android:layout_below="@+id/btn_login"
+        android:layout_marginTop="90dp"
+        android:background="@android:color/darker_gray" />
+
+    <View
+        android:layout_width="110dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="9dp"
+        android:layout_toLeftOf="@id/textView2"
+        android:layout_below="@+id/btn_login"
+        android:layout_marginTop="90dp"
+        android:background="@android:color/darker_gray" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="225dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="75dp"
+        android:ems="10"
+        android:text="Utwórz nowe konto"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"/>
+
+
+
+
+
+
+
+</RelativeLayout>

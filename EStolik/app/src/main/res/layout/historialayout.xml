@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Wybierz rezerwacje aby zobaczyć jej szczegóły"
+            android:textSize="20dp"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioGroup"
+            android:layout_below="@+id/textView"
+            android:layout_marginTop="25dp"
+            >
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn_szczegoly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:text="Szczegóły"
+            android:layout_below="@+id/radioGroup"
+            android:background="@color/colorAccent"
+            android:textColor="@android:color/white"/>
+
+        <Button
+            android:id="@+id/btn_zrzygnuj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="20dp"
+            android:ems="10"
+            android:text="Zrezygnuj"
+            android:layout_below="@+id/radioGroup"
+            android:layout_toRightOf="@+id/btn_szczegoly"
+            android:background="@color/colorAccent"
+            android:textColor="@android:color/white"/>
+
+    </RelativeLayout>
+
+</ScrollView>
